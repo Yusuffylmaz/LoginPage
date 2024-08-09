@@ -11,7 +11,7 @@ customtkinter.set_appearance_mode("Light")  #system (default), light, dark
 customtkinter.set_default_color_theme("blue") #blue (default), dark-blue, green
 
 bg= "#ebebeb"
-#StartTimedUpdates()
+StartTimedUpdates()
 
 class MainPage(customtkinter.CTk):
     def __init__(self,master=None):
