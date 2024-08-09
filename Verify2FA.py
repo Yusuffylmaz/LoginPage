@@ -11,7 +11,7 @@ customtkinter.set_appearance_mode("Light")  #system (default), light, dark
 customtkinter.set_default_color_theme("blue") #blue (default), dark-blue, green
 
 bg= "#ebebeb"
-StartTimedUpdates() #kişiye özel olan 'code' değerini 30 saniyede bir veritabanında günceller
+StartTimedUpdates() #Kişiye özel olan 'code' değerini 30 saniyede bir günceller. Sadece 7/24 açık olacak olan sayfada bu kodun aktif olması gerekiyor.
 
 class MainPage(customtkinter.CTk):
     def __init__(self,master=None):
